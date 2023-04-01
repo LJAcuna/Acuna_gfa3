@@ -1,0 +1,49 @@
+
+body{
+    background-image: url(bgpic.jpg);
+	font-family: 'Lucida Sans Unicode', sans-serif;
+}
+main{
+	background-color: white;
+	width: 50%;
+	margin: 50px auto;
+	padding: 25px;
+	border-radius: 10px;
+}
+h1{
+    font-weight: bolder;
+	text-align: center;
+	font-size: 40px;
+}
+.desc, .rep{
+	text-align: center;
+}
+.numbers{
+	display: flex;
+	margin: 50px 0;
+}
+.stat{
+	display: inline-block;
+	align-items: center;
+	text-align: center;
+	margin: auto;
+	border: 1px solid gray;
+	border-radius: 10px;
+	width: 150px;
+	height: 150px;
+}
+.stat p{
+	font-size: 20px;
+}
+.stat h3, .container p{
+	margin: 30px;
+}
+#pr{
+	color: green;
+}
+#lt{
+	color: darkgoldenrod;
+}
+#ab{
+	color: red;
+}
