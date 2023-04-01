@@ -25,6 +25,6 @@ function report(){
 	
 	var mins = n2*n3;
 	var hrs = parseInt((n2*n3)/60);
-	var actmins = (n2*n3)%60;
+	var actmins = (mins)%60;
 	document.getElementById("time").innerHTML= hrs +"hr "+ actmins +"min";
 }
